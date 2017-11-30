@@ -1,0 +1,390 @@
+
+>>>>>>>>>——————FIRST TRIP STARTED—————<<<<<<<<<<
+
+ℹ️-[TSLocationManager on:success:failure:] location
+ℹ️-[TSLocationManager on:success:failure:] motionchange
+ℹ️-[TSLocationManager on:success:failure:] activitychange
+ℹ️-[TSLocationManager on:success:failure:] providerchange
+
+╔═══════════════════════════════════════════════════════════
+║ -[Settings load:] 
+{
+    activityRecognitionInterval = 10000;
+    activityType = Other;
+    autoSync = 1;
+    autoSyncThreshold = 0;
+    batchSync = 0;
+    debug = 0;
+    desiredAccuracy = 0;
+    desiredOdometerAccuracy = 100;
+    disableElasticity = 0;
+    disableMotionActivityUpdates = 0;
+    disableStopDetection = 0;
+    distanceFilter = 10;
+    elasticityMultiplier = 1;
+    enabled = 0;
+    extras =     {
+    };
+    geofenceInitialTriggerEntry = 1;
+    geofenceProximityRadius = 1000;
+    geofenceTemplate = "";
+    headers =     {
+    };
+    heartbeatInterval = 60;
+    httpRootProperty = location;
+    httpTimeout = 60000;
+    isHeartbeatEnabled = 0;
+    isMoving = 0;
+    locationAuthorizationAlert =     {
+        cancelButton = Cancel;
+        instructions = "To use background location, you must enable '{locationAuthorizationRequest}' in the Location Services settings";
+        settingsButton = Settings;
+        titleWhenNotEnabled = "Background location is not enabled";
+        titleWhenOff = "Location services are off";
+    };
+    locationAuthorizationRequest = Always;
+    locationTemplate = "";
+    locationTimeout = 60;
+    locationsOrderDirection = ASC;
+    logLevel = 5;
+    logMaxDays = 7;
+    maxBatchSize = "-1";
+    maxDaysToPersist = 1;
+    maxRecordsToPersist = "-1";
+    method = POST;
+    minimumActivityRecognitionConfidence = 70;
+    odometer = "6767.60216800982";
+    params =     {
+    };
+    pausesLocationUpdatesAutomatically = 1;
+    preventSuspend = 0;
+    schedule =     (
+    );
+    schedulerEnabled = 0;
+    startOnBoot = 1;
+    stationaryRadius = 25;
+    stopAfterElapsedMinutes = "-1";
+    stopDetectionDelay = 0;
+    stopOnStationary = 0;
+    stopOnTerminate = 0;
+    stopTimeout = 1;
+    trackingMode = 1;
+    url = "";
+    useSignificantChangesOnly = 0;
+}
+╚═══════════════════════════════════════════════════════════
+ℹ️-[LocationDAO purge:] 1
+2017-11-30 13:05:30.957 [info][tid:com.facebook.react.JavaScript] '- Location provider changed: ', true
+2017-11-30 13:05:30.957591+0100 RNBackgroundLocationSimpletest[6941:93310820] '- Location provider changed: ', true
+2017-11-30 13:05:30.959 [info][tid:com.facebook.react.JavaScript] '- BackgroundGeolocation config: ', false
+2017-11-30 13:05:30.959058+0100 RNBackgroundLocationSimpletest[6941:93310820] '- BackgroundGeolocation config: ', false
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager start] 
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager setPace:] 0
+2017-11-30 13:05:30.971 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":341.37,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.36126432,"altitude":0,"latitude":37.53216315,"speed":34.54},"sample":true,"battery":{"is_charging":false,"level":-1},"extras":{},"is_moving":false,"activity":{"confidence":100,"type":"unknown"},"odometer":6767.6,"uuid":"B53B06D7-2187-4998-B1C7-C343B51005AE","timestamp":"2017-11-30T12:01:44.926Z"}'
+🎾-[TSLocationManager startUpdatingLocation] Location-services: ON
+2017-11-30 13:05:30.971706+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":341.37,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.36126432,"altitude":0,"latitude":37.53216315,"speed":34.54},"sample":true,"battery":{"is_charging":false,"level":-1},"extras":{},"is_moving":false,"activity":{"confidence":100,"type":"unknown"},"odometer":6767.6,"uuid":"B53B06D7-2187-4998-B1C7-C343B51005AE","timestamp":"2017-11-30T12:01:44.926Z"}'
+2017-11-30 13:05:30.991 [info][tid:com.facebook.react.JavaScript] - Start success
+2017-11-30 13:05:30.992141+0100 RNBackgroundLocationSimpletest[6941:93310820] - Start success
+ℹ️+[LocationAuthorization run:] status: 3
+🎾-[TSLocationManager startMonitoringBackgroundFetch] BackgroundFetch: ON
+2017-11-30 13:05:31.035168+0100 RNBackgroundLocationSimpletest[6941:92909832] [TSBackgroundFetch addListener]: TSLocationManager
+2017-11-30 13:05:31.035330+0100 RNBackgroundLocationSimpletest[6941:92909832] [TSBackgroundFetch start]
+
+📍<+37.53216315,-122.36126432> +/- 5.00m (speed 34.54 mps / course 341.37) @ 11/30/17, 1:01:44 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 0 | df: -1.0m | age: 226.1s
+╚═══════════════════════════════════════════════════════════
+ℹ️-[TSLocationManager locationManager:didUpdateLocations:] Received stale motionchange location.  Retrying...
+
+📍<+37.59452644,-122.41758853> +/- 5.00m (speed 33.88 mps / course 321.68) @ 11/30/17, 1:05:31 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 0 | df: -1.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+✅-[TSLocationManager locationManager:didUpdateLocations:] Acquired motionchange position: <+37.59452644,-122.41758853> +/- 5.00m (speed 33.88 mps / course 321.68) @ 11/30/17, 1:05:31 PM Central European Standard Time
+🔵-[TSLocationManager startMonitoringStationaryRegion:] Radius: 25
+🔴-[TSLocationManager stopUpdatingLocation] 
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🎾-[TSLocationManager startMonitoringSignificantLocationChanges] 
+2017-11-30 13:05:31.718 [info][tid:com.facebook.react.JavaScript] '- [js]motionchanged: ', '{"isMoving":false,"location":{"timestamp":"2017-11-30T12:05:31.701Z","battery":{"level":-1,"is_charging":false},"uuid":"F1D06946-A6D3-43C6-AF30-37BB97EBFA41","odometer":6767.6,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":false,"extras":{},"coords":{"speed":33.88,"latitude":37.59452644,"altitude":0,"longitude":-122.41758853,"altitude_accuracy":-1,"accuracy":5,"heading":321.68}}}'
+2017-11-30 13:05:31.718539+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]motionchanged: ', '{"isMoving":false,"location":{"timestamp":"2017-11-30T12:05:31.701Z","battery":{"level":-1,"is_charging":false},"uuid":"F1D06946-A6D3-43C6-AF30-37BB97EBFA41","odometer":6767.6,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":false,"extras":{},"coords":{"speed":33.88,"latitude":37.59452644,"altitude":0,"longitude":-122.41758853,"altitude_accuracy":-1,"accuracy":5,"heading":321.68}}}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: F1D06946-A6D3-43C6-AF30-37BB97EBFA41
+2017-11-30 13:05:31.720 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":321.68,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.41758853,"altitude":0,"latitude":37.59452644,"speed":33.88},"extras":{},"is_moving":false,"activity":{"confidence":100,"type":"unknown"},"event":"motionchange","odometer":6767.6,"uuid":"F1D06946-A6D3-43C6-AF30-37BB97EBFA41","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:31.701Z"}'
+2017-11-30 13:05:31.720032+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":321.68,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.41758853,"altitude":0,"latitude":37.59452644,"speed":33.88},"extras":{},"is_moving":false,"activity":{"confidence":100,"type":"unknown"},"event":"motionchange","odometer":6767.6,"uuid":"F1D06946-A6D3-43C6-AF30-37BB97EBFA41","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:31.701Z"}'
+🔵-[TSLocationManager setPace:] 1
+🎾-[SOMotionDetector startShakeDetection:] sample-rate: 0.2 | M7 DISABLED
+2017-11-30 13:05:39.744 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":319.92,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.41948988,"altitude":0,"latitude":37.59641538,"speed":33.23},"sample":true,"battery":{"is_charging":false,"level":-1},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":6767.6,"uuid":"39D717E4-45BD-40BB-A1EB-0089A9C70112","timestamp":"2017-11-30T12:05:39.743Z"}'
+🎾-[TSLocationManager startUpdatingLocation] Location-services: ON
+2017-11-30 13:05:39.743864+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":319.92,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.41948988,"altitude":0,"latitude":37.59641538,"speed":33.23},"sample":true,"battery":{"is_charging":false,"level":-1},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":6767.6,"uuid":"39D717E4-45BD-40BB-A1EB-0089A9C70112","timestamp":"2017-11-30T12:05:39.743Z"}'
+ℹ️+[LocationAuthorization run:] status: 3
+
+📍<+37.59664983,-122.41974955> +/- 5.00m (speed 33.58 mps / course 318.52) @ 11/30/17, 1:05:40 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: -1.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+✅-[TSLocationManager locationManager:didUpdateLocations:] Acquired motionchange position: <+37.59664983,-122.41974955> +/- 5.00m (speed 33.58 mps / course 318.52) @ 11/30/17, 1:05:40 PM Central European Standard Time
+🎾-[TSLocationManager startUpdatingLocation] Location-services: ON
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7070.9
+2017-11-30 13:05:40.745 [info][tid:com.facebook.react.JavaScript] '- [js]motionchanged: ', '{"isMoving":true,"location":{"timestamp":"2017-11-30T12:05:40.733Z","battery":{"level":-1,"is_charging":false},"uuid":"BD00872B-2153-4745-9462-1E695FC31200","odometer":7070.9,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":true,"extras":{},"coords":{"speed":33.58,"latitude":37.59664983,"altitude":0,"longitude":-122.41974955,"altitude_accuracy":-1,"accuracy":5,"heading":318.52}}}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: BD00872B-2153-4745-9462-1E695FC31200
+2017-11-30 13:05:40.746145+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]motionchanged: ', '{"isMoving":true,"location":{"timestamp":"2017-11-30T12:05:40.733Z","battery":{"level":-1,"is_charging":false},"uuid":"BD00872B-2153-4745-9462-1E695FC31200","odometer":7070.9,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":true,"extras":{},"coords":{"speed":33.58,"latitude":37.59664983,"altitude":0,"longitude":-122.41974955,"altitude_accuracy":-1,"accuracy":5,"heading":318.52}}}'
+2017-11-30 13:05:40.747 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":318.52,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.41974955,"altitude":0,"latitude":37.59664983,"speed":33.58},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"event":"motionchange","odometer":7070.9,"uuid":"BD00872B-2153-4745-9462-1E695FC31200","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:40.733Z"}'
+2017-11-30 13:05:40.747079+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":318.52,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.41974955,"altitude":0,"latitude":37.59664983,"speed":33.58},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"event":"motionchange","odometer":7070.9,"uuid":"BD00872B-2153-4745-9462-1E695FC31200","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:40.733Z"}'
+ℹ️+[LocationAuthorization run:] status: 3
+ℹ️-[TSDBLogger db_save] Log committed
+
+📍<+37.59731589,-122.42053569> +/- 5.00m (speed 33.64 mps / course 315.70) @ 11/30/17, 1:05:43 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7172.3
+2017-11-30 13:05:43.749 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42053569,"altitude":0,"latitude":37.59731589,"speed":33.64},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7172.3,"uuid":"D573CAF1-3E57-472A-91CE-6352FA4FF362","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:43.741Z"}'
+2017-11-30 13:05:43.749221+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42053569,"altitude":0,"latitude":37.59731589,"speed":33.64},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7172.3,"uuid":"D573CAF1-3E57-472A-91CE-6352FA4FF362","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:43.741Z"}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: D573CAF1-3E57-472A-91CE-6352FA4FF362
+
+📍<+37.59795493,-122.42134262> +/- 5.00m (speed 33.78 mps / course 315.35) @ 11/30/17, 1:05:46 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7272.8
+2017-11-30 13:05:46.761 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":315.35,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42134262,"altitude":0,"latitude":37.59795493,"speed":33.78},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7272.8,"uuid":"2672B28C-6E05-434E-B4B6-DE34D1C030EC","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:46.752Z"}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: 2672B28C-6E05-434E-B4B6-DE34D1C030EC
+2017-11-30 13:05:46.762302+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":315.35,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42134262,"altitude":0,"latitude":37.59795493,"speed":33.78},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7272.8,"uuid":"2672B28C-6E05-434E-B4B6-DE34D1C030EC","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:46.752Z"}'
+
+📍<+37.59860197,-122.42214359> +/- 5.00m (speed 33.56 mps / course 315.70) @ 11/30/17, 1:05:49 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7373.6
+2017-11-30 13:05:49.766 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42214359,"altitude":0,"latitude":37.59860197,"speed":33.56},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7373.6,"uuid":"F96E58B1-D19E-419D-BE3D-6966262E5809","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:49.758Z"}'
+2017-11-30 13:05:49.766441+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42214359,"altitude":0,"latitude":37.59860197,"speed":33.56},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7373.6,"uuid":"F96E58B1-D19E-419D-BE3D-6966262E5809","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:49.758Z"}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: F96E58B1-D19E-419D-BE3D-6966262E5809
+
+📍<+37.59924335,-122.42293962> +/- 5.00m (speed 33.86 mps / course 315.70) @ 11/30/17, 1:05:52 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7473.7
+2017-11-30 13:05:52.776 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42293962,"altitude":0,"latitude":37.59924335,"speed":33.86},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7473.7,"uuid":"88F74A32-F9B9-43B9-92CF-071E603FACD1","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:52.768Z"}'
+2017-11-30 13:05:52.776579+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42293962,"altitude":0,"latitude":37.59924335,"speed":33.86},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7473.7,"uuid":"88F74A32-F9B9-43B9-92CF-071E603FACD1","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:52.768Z"}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: 88F74A32-F9B9-43B9-92CF-071E603FACD1
+
+📍<+37.59989165,-122.42373859> +/- 5.00m (speed 33.75 mps / course 315.70) @ 11/30/17, 1:05:55 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7574.4
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: BFC71C94-D408-4BAD-AFA0-6398DA458D7D
+2017-11-30 13:05:55.789 [info][tid:com.facebook.react.JavaScript] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42373859,"altitude":0,"latitude":37.59989165,"speed":33.75},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7574.4,"uuid":"BFC71C94-D408-4BAD-AFA0-6398DA458D7D","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:55.779Z"}'
+2017-11-30 13:05:55.789310+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]location: ', '{"coords":{"heading":315.7,"accuracy":5,"altitude_accuracy":-1,"longitude":-122.42373859,"altitude":0,"latitude":37.59989165,"speed":33.75},"extras":{},"is_moving":true,"activity":{"confidence":100,"type":"unknown"},"odometer":7574.4,"uuid":"BFC71C94-D408-4BAD-AFA0-6398DA458D7D","battery":{"is_charging":false,"level":-1},"timestamp":"2017-11-30T12:05:55.779Z"}'
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager stop] 
+╚═══════════════════════════════════════════════════════════
+🔴-[TSGeofenceManager stopMonitoringGeofences] 
+🔴-[SOMotionDetector stopShakeDetection] OFF
+🔴-[TSLocationManager stopUpdatingLocation] 
+🔴-[TSLocationManager stopMonitoringBackgroundFetch] BackgroundFetch: OFF
+2017-11-30 13:05:56.689368+0100 RNBackgroundLocationSimpletest[6941:93316387] [TSBackgroundFetch removeListener]: TSLocationManager
+🔴-[TSLocationManager stopMonitoringSignificantLocationChanges] 
+ℹ️-[TSLocationManager removeListeners] 
+ℹ️-[TSLocationManager removeListeners] 
+ℹ️-[TSLocationManager removeListeners] 
+
+>>>>>>>>>——————FIRST TRIP ENDED—————<<<<<<<<<<
+
+>>>>>>>>>——————SECOND TRIP STARTED—————<<<<<<<<<<
+
+ℹ️-[TSLocationManager on:success:failure:] motionchange
+ℹ️-[TSLocationManager on:success:failure:] providerchange
+
+╔═══════════════════════════════════════════════════════════
+║ -[Settings load:] 
+{
+    activityRecognitionInterval = 10000;
+    activityType = Other;
+    autoSync = 1;
+    autoSyncThreshold = 0;
+    batchSync = 0;
+    debug = 0;
+    desiredAccuracy = 0;
+    desiredOdometerAccuracy = 100;
+    disableElasticity = 0;
+    disableMotionActivityUpdates = 0;
+    disableStopDetection = 0;
+    distanceFilter = 10;
+    elasticityMultiplier = 1;
+    enabled = 0;
+    extras =     {
+    };
+    geofenceInitialTriggerEntry = 1;
+    geofenceProximityRadius = 1000;
+    geofenceTemplate = "";
+    headers =     {
+    };
+    heartbeatInterval = 60;
+    httpRootProperty = location;
+    httpTimeout = 60000;
+    isHeartbeatEnabled = 0;
+    isMoving = 0;
+    locationAuthorizationAlert =     {
+        cancelButton = Cancel;
+        instructions = "To use background location, you must enable '{locationAuthorizationRequest}' in the Location Services settings";
+        settingsButton = Settings;
+        titleWhenNotEnabled = "Background location is not enabled";
+        titleWhenOff = "Location services are off";
+    };
+    locationAuthorizationRequest = Always;
+    locationTemplate = "";
+    locationTimeout = 60;
+    locationsOrderDirection = ASC;
+    logLevel = 5;
+    logMaxDays = 7;
+    maxBatchSize = "-1";
+    maxDaysToPersist = 1;
+    maxRecordsToPersist = "-1";
+    method = POST;
+    minimumActivityRecognitionConfidence = 70;
+    odometer = "7574.439362358402";
+    params =     {
+    };
+    pausesLocationUpdatesAutomatically = 1;
+    preventSuspend = 0;
+    schedule =     (
+    );
+    schedulerEnabled = 0;
+    startOnBoot = 1;
+    stationaryRadius = 25;
+    stopAfterElapsedMinutes = "-1";
+    stopDetectionDelay = 0;
+    stopOnStationary = 0;
+    stopOnTerminate = 0;
+    stopTimeout = 1;
+    trackingMode = 1;
+    url = "";
+    useSignificantChangesOnly = 0;
+}
+╚═══════════════════════════════════════════════════════════
+2017-11-30 13:06:03.635 [info][tid:com.facebook.react.JavaScript] '- BackgroundGeolocation config: ', false
+2017-11-30 13:06:03.635436+0100 RNBackgroundLocationSimpletest[6941:93310820] '- BackgroundGeolocation config: ', false
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager start] 
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager setPace:] 0
+🎾-[TSLocationManager startUpdatingLocation] Location-services: ON
+2017-11-30 13:06:03.652 [info][tid:com.facebook.react.JavaScript] - Start success
+2017-11-30 13:06:03.652299+0100 RNBackgroundLocationSimpletest[6941:93310820] - Start success
+ℹ️+[LocationAuthorization run:] status: 3
+🎾-[TSLocationManager startMonitoringBackgroundFetch] BackgroundFetch: ON
+2017-11-30 13:06:03.665085+0100 RNBackgroundLocationSimpletest[6941:92909832] [TSBackgroundFetch addListener]: TSLocationManager
+2017-11-30 13:06:03.665502+0100 RNBackgroundLocationSimpletest[6941:92909832] [TSBackgroundFetch start]
+
+📍<+37.60144184,-122.42557665> +/- 5.00m (speed 33.85 mps / course 317.11) @ 11/30/17, 1:06:03 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 0 | df: -1.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+✅-[TSLocationManager locationManager:didUpdateLocations:] Acquired motionchange position: <+37.60144184,-122.42557665> +/- 5.00m (speed 33.85 mps / course 317.11) @ 11/30/17, 1:06:03 PM Central European Standard Time
+🔵-[TSLocationManager startMonitoringStationaryRegion:] Radius: 25
+🔴-[TSLocationManager stopUpdatingLocation] 
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🎾-[TSLocationManager startMonitoringSignificantLocationChanges] 
+2017-11-30 13:06:03.676 [info][tid:com.facebook.react.JavaScript] '- [js]motionchanged: ', '{"isMoving":false,"location":{"timestamp":"2017-11-30T12:06:03.642Z","battery":{"level":-1,"is_charging":false},"uuid":"B1AC880F-1485-42A1-A1C7-7AC524AC2284","odometer":7574.4,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":false,"extras":{},"coords":{"speed":33.85,"latitude":37.60144184,"altitude":0,"longitude":-122.42557665,"altitude_accuracy":-1,"accuracy":5,"heading":317.11}}}'
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: B1AC880F-1485-42A1-A1C7-7AC524AC2284
+2017-11-30 13:06:03.677243+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]motionchanged: ', '{"isMoving":false,"location":{"timestamp":"2017-11-30T12:06:03.642Z","battery":{"level":-1,"is_charging":false},"uuid":"B1AC880F-1485-42A1-A1C7-7AC524AC2284","odometer":7574.4,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":false,"extras":{},"coords":{"speed":33.85,"latitude":37.60144184,"altitude":0,"longitude":-122.42557665,"altitude_accuracy":-1,"accuracy":5,"heading":317.11}}}'
+🔵-[TSLocationManager setPace:] 1
+🎾-[SOMotionDetector startShakeDetection:] sample-rate: 0.2 | M7 DISABLED
+🎾-[TSLocationManager startUpdatingLocation] Location-services: ON
+ℹ️+[LocationAuthorization run:] status: 3
+
+📍<+37.60347190,-122.42725153> +/- 5.00m (speed 33.73 mps / course 335.74) @ 11/30/17, 1:06:10 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: -1.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+✅-[TSLocationManager locationManager:didUpdateLocations:] Acquired motionchange position: <+37.60347190,-122.42725153> +/- 5.00m (speed 33.73 mps / course 335.74) @ 11/30/17, 1:06:10 PM Central European Standard Time
+🎾-[TSLocationManager startUpdatingLocation] Location-services: ON
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7844.0
+2017-11-30 13:06:10.847 [info][tid:com.facebook.react.JavaScript] '- [js]motionchanged: ', '{"isMoving":true,"location":{"timestamp":"2017-11-30T12:06:10.831Z","battery":{"level":-1,"is_charging":false},"uuid":"BC283E50-E13A-40AA-B30B-39DBB432A690","odometer":7844,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":true,"extras":{},"coords":{"speed":33.73,"latitude":37.6034719,"altitude":0,"longitude":-122.42725153,"altitude_accuracy":-1,"accuracy":5,"heading":335.74}}}'
+2017-11-30 13:06:10.847200+0100 RNBackgroundLocationSimpletest[6941:93310820] '- [js]motionchanged: ', '{"isMoving":true,"location":{"timestamp":"2017-11-30T12:06:10.831Z","battery":{"level":-1,"is_charging":false},"uuid":"BC283E50-E13A-40AA-B30B-39DBB432A690","odometer":7844,"event":"motionchange","activity":{"type":"unknown","confidence":100},"is_moving":true,"extras":{},"coords":{"speed":33.73,"latitude":37.6034719,"altitude":0,"longitude":-122.42725153,"altitude_accuracy":-1,"accuracy":5,"heading":335.74}}}'
+ℹ️+[LocationAuthorization run:] status: 3
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: BC283E50-E13A-40AA-B30B-39DBB432A690
+
+📍<+37.60432052,-122.42765394> +/- 5.00m (speed 33.62 mps / course 341.02) @ 11/30/17, 1:06:13 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 7944.6
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: 14013CD1-6F38-41C6-B87D-9B098DD64F3A
+
+📍<+37.60520008,-122.42789551> +/- 5.00m (speed 33.24 mps / course 348.75) @ 11/30/17, 1:06:16 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 8044.6
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: F4C21474-B6E3-49A4-B0DC-0FF94CAECEB9
+
+📍<+37.60608290,-122.42802157> +/- 5.00m (speed 32.96 mps / course 355.08) @ 11/30/17, 1:06:19 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 8143.2
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: 33954DBA-2EFD-4812-AD78-61735033F8F4
+
+📍<+37.60697453,-122.42798519> +/- 5.00m (speed 32.63 mps / course 2.81) @ 11/30/17, 1:06:22 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 8242.2
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: 0E06E8CD-410F-4101-934D-BA0D079FA2B4
+
+📍<+37.60784989,-122.42783465> +/- 5.00m (speed 33.00 mps / course 8.79) @ 11/30/17, 1:06:25 PM Central European Standard Time
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager locationManager:didUpdateLocations:] Enabled: 1 | isMoving: 1 | df: 80.0m | age: 0.0s
+╚═══════════════════════════════════════════════════════════
+🔵-[TSLocationManager calculateMedianLocationAccuracy:] Median location accuracy: 5.0
+🔵-[Settings incrementOdometer:] 8340.2
+✅-[TSLocationManager persistLocation:]_block_invoke INSERT: 38BFE58C-4B8A-4B85-9762-782D1A0CE1E6
+
+╔═══════════════════════════════════════════════════════════
+║ -[TSLocationManager stop] 
+╚═══════════════════════════════════════════════════════════
+🔴-[TSGeofenceManager stopMonitoringGeofences] 
+🔴-[SOMotionDetector stopShakeDetection] OFF
+🔴-[TSLocationManager stopUpdatingLocation] 
+🔴-[TSLocationManager stopMonitoringBackgroundFetch] BackgroundFetch: OFF
+2017-11-30 13:06:26.838564+0100 RNBackgroundLocationSimpletest[6941:93327425] [TSBackgroundFetch removeListener]: TSLocationManager
+🔴-[TSLocationManager stopMonitoringSignificantLocationChanges] 
+ℹ️-[TSLocationManager removeListeners] 
+ℹ️-[TSLocationManager removeListeners] 
+ℹ️-[TSLocationManager removeListeners] 
+
+>>>>>>>>>——————SECOND TRIP ENDED—————<<<<<<<<<<
+

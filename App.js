@@ -29,8 +29,9 @@ export default class App extends Component<{}> {
       latitude: ''
     };
   }
-  onStart() {
-    BackgroundGeolocation.on('location', this.onLocation.bind(this));
+  componentDidMount() {
+    this.onLocation = this.onLocation.bind(this);
+    BackgroundGeolocation.on('location', this.onLocation);
 
     // This handler fires whenever bgGeo receives an error
     BackgroundGeolocation.on('error', this.onError);
@@ -68,13 +69,20 @@ export default class App extends Component<{}> {
     });
   }
 
-  onStop() {
-    BackgroundGeolocation.stop();
+  componentWillUnmount() {
     BackgroundGeolocation.un('location', this.onLocation);
     BackgroundGeolocation.un('error', this.onError);
     BackgroundGeolocation.un('motionchange', this.onMotionChange);
     BackgroundGeolocation.un('activitychange', this.onActivityChange);
     BackgroundGeolocation.un('providerchange', this.onProviderChange);
+  }
+
+  onStart() {
+    BackgroundGeolocation.start();
+  }
+
+  onStop() {
+    BackgroundGeolocation.stop();
   }
 
     onLocation(location) {
